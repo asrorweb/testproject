@@ -7,7 +7,7 @@ function Header() {
     const [dropdown, setDropdown] = useState(false);
     const [menu, setMenu] = useState(false);
     return (
-        <div className="fixed w-full left-0 right-0 top-0">
+        <div className="fixed z-50 w-full left-0 right-0 top-0">
             <nav className="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                     <a href="#" className="flex items-center">
